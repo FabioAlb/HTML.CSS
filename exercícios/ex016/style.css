@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*{
+    font font-family: arial;
+    /*height: 100%;*/
+}
+p{text-align: justify;}
+body{background-image: linear-gradient(to right, #BAF2FF,#5695A3);}
+main{background-color: white;
+width: 600px;
+padding: 10px;
+margin: auto;
+border-radius: 40px;
+box-shadow: 5px 5px 15px #427b88bb; /* a parte branca onde o texto está inserido (dentro de main) terá uma sombra, na folha box-shadow terá três parâmetros:
+quanto ela andará para o lado
+quanto ela vai andar para baixo
+quanto ela vai espalhar e a cor da sombra/transparência*/
+}
+h1{
+color: #5695A3;
+text-align: center;
+text-shadow: 1px 1px 2px #4a828f5d;
+}
+h2{
+color: #7fbbc9;
+text-shadow: 1px 1px 2px #85c2cf5b;
+}

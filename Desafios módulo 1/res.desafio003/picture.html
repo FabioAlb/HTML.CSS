@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/dragon.ico" type="image/dragon-icon">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência</p>
+    
+<picture>
+    <source srcset="imagens/dragon286.png" media="(max-width: 500px)">
+    <source srcset="imagens/dragon570.png" media="(max-width: 900px)"> 
+    <img src="imagens/dragon1200.png" alt="img dragon">
+    <!--a tag picture é usada pra agrupar fontes que serão usadas em tamanhos de tela diferentes. O que definirá esses tamanho são as tags source(fonte), source srcset (faz a definição de uma fonte que só a aparecera de acordo com os parâtros estabelecidos com a tag media="(max-width: 500px)") -->
+</picture>
+</body>
+</html>

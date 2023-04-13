@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*
+        # = id
+        . = class
+        : = pesudo-class
+        :: = pseudo-element
+        > = children (filho)
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellowgreen;
+        }
+        div{
+            background-color: indigo;
+            height: 300px;
+            width: 300px;
+            border-radius: 150px;
+            text-align: center;
+        }
+        div:hover {
+            background-color: rgba(0, 255, 255, 0.411);
+            border-radius: 25px;
+            text-align: center;
+            display: ;
+        }
+        .especial::before{
+            content: '⇒ ';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;	
+
+        }
+        .especial::after{
+            content: ' ⇐';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        .especial{
+            background-color: rgb(183, 255, 231);
+        }
+        .perfil{
+            image-orientation: flip;
+            width: 150px;
+            height: 150px;
+            border-radius: 75px;
+        }
+        
+    
+    </style>
+</head>
+<body>
+   <h1>personalizando links</h1> 
+   <ul>
+    <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/desafios/modulo-02/d011/desafio-astronauta-1.pdf" target="_blank">Repositório GitHub</a></li>
+    <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po" target="_blank">Canal do Youtube</a></li>
+    <li><a href="https://www.cursoemvideo.com/" target="_blank" class="especial">Site do Curso em Vídeo</a></li>
+   </ul>
+
+   <div><img src="imagens/fotoCircular.png" alt="imagens de perfil" class="perfil"> <p class="informaçoes">Olá, meu nome é fábio</p>
+    <p hidden>Tenho 21 anos, estudo Engenharia de Software e sou apaixonado por Tecnologia</p>
+</div>
+</body>
+</html>

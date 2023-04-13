@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #bacefd;
+            margin: 0px;
+        }
+        h1{
+            text-align: center;
+        }
+        header{
+            background-color: #374C7D;
+           padding: 10px;
+           margin: 10px;
+           border-radius: 15px;
+           color: #bacefd;
+           box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.205);
+        }
+        nav{
+            background-color: black;
+            padding: 3px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.205);
+            
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 8px;
+            margin-left: 8px;
+            color: #bacefd;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.205);
+        }
+        footer{
+            background-color: black;
+            color: #bacefd;s
+            padding: 2px;
+            margin: 0px;
+
+        }
+        footer > p{
+            margin: 0px;
+            text-align: center;
+        }
+        article > aside{
+            margin: 0px;
+            background-color: black;
+            padding: 3px;
+            text-align: center;
+            border-radius: 15px;
+            color: #bacefd;
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.205);
+            /*
+            Box-radius tem suas vértices configuráveis individualmente, neste exemplo está sendo usado uma shorthand que contém left-top, rigth-top, bottom-right e bottom-left
+            Além dessa shorthand, é possível definir dois parâmetros, dessa forma um o top-left terá o mesmo raio que bottom-right e o top-right terá o mesmo raio que o bottom-left , formando uma espécie de x, onde cada um dos parâmetros altera as extremidades de uma das linha que formam o x
+            */
+        }
+        article > aside > p{
+            margin: 0px;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facilis maxime illo saepe sit deleniti nisi quam praesentium dolor, pariatur qui eaque perspiciatis inventore doloribus dolore explicabo nemo iste quibusdam!</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>inchentes em São Paulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, impedit voluptatum modi dolorem cumque dicta harum quos atque placeat nulla tempore officia repudiandae saepe officiis sit accusantium, quod magnam incidunt.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos qui illo sunt! Quisquam rem, harum tempore distinctio optio iste nihil voluptatem alias autem quae. Ad inventore temporibus eius hic tenetur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus error neque temporibus in quas aliquid accusamus perferendis quia, reprehenderit, vel culpa quaerat cupiditate fugiat sint amet ducimus, deserunt voluptate.</p>
+                <aside>
+                    <p>artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <h2>Medidas do Governo do Estado de São Paulo</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio libero blanditiis aliquam dolores laudantium saepe sint magni, deleniti aliquid voluptates nobis, quisquam quidem facere quas sed perspiciatis tempore! Quam, deserunt.</p>
+            <h3>Orçamento liberado pelo governador de São Paulo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, labore quo illo, reprehenderit beatae vitae corrupti quam at nostrum, ducimus eveniet fuga expedita. Omnis quasi ut repellendus delectus iste veritatis?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quidem iusto, at perspiciatis, repudiandae explicabo officiis praesentium eius pariatur ut iure labore recusandae dignissimos fugiat ipsam. In quas perspiciatis nesciunt.</p>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, earum. Ratione totam eum deserunt ea beatae aspernatur ad dolorem ullam illo quisquam, adipisci debitis repudiandae doloremque fugit recusandae voluptas tempora?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptates harum, modi assumenda incidunt dolor quibusdam est. Iste, eos velit! Molestias nisi laboriosam, provident obcaecati dolorem reprehenderit sequi a laudantium.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tenetur! Eius harum repudiandae rerum similique! Molestiae numquam deleniti voluptate maxime eos, est voluptatibus rem, repellendus fuga nemo voluptatum accusamus id?</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo estudante Fábio Gabriel</p>
+    </footer>
+</body>
+</html>

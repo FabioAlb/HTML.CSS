@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.alb.ico" type="image/alb.ico">
+    <title>Links e Âncoras</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar meu <a href="https://github.com/gustavoguanabara/html-css">repositório público no GitHub</a></p> <!--a tag 'a' significa âncora e o parâmetro 'href' significa referêcnia a hypertexto -->
+    <p>Você também pode acessar o <a href="https://www.instagram.com/sehcnas_oibaf/">meu perfil do Instagram</a></p> <!--dessa forma, o link ancorado em um trecho conteúdo é aberto sobre a página atual do usuário, ou seja, ele fecha essa página em questão e abre outra no lugar o que não é interessante, pois provavelmente o usuário não irá voltar para essa página, para corrigir isso basta adicionar os parâmetros do exemplo a seguir:-->
+    <p>Para não fechar a página atual e mesmo assim abrir um link externo o <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY" target="_blank" rel="external">Prof. Gustavo ensina</a></p><!--o parâmetro target define que o link deverá ser acessado em uma nova aba e o parâmetro rel define-->
+    <!--depois do parâmetro href é possível colocar um parâmetro para mudar o idioma do site que será acessado, a tag é: hreflang="pt-br", por exemplo-->
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site, se você quiser acessar a segunda página clique <a href="pag002.html" rel="next">aqui</a></p> <!--para esse método de ancoragem de link a pagina ancorada deve estar na mesma pasta que o arquivo em que o link estará aparecendo, neste caso a pasta ex010 (o parâmetro rel="next" significa próxima página, ou seja, estou dizendo para a âncora que esse link levará para a próxima págian de navegação e, não necessariámente será a próxima página da pasta atual)-->
+    <p>Você também pode acesar a nossa <a href="noticias/pag003.html">página de notícias</a></p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte.pdf" type="application/pdf">Baixar o livro em PDF</a></li><!--No navegador chrome não há como baixar o pdp sem que o  pdf seja aberto dando a possibilidade de impressão e download-->
+        <li><a href="livro/10 - Ligações em toda parte.zip" download="10 - Ligações em toda parte.zip" type="application/zip">livro compactado em ZIP</a></li> <!--Já para outros arquivos como o ZIP (pasta compactada) o download é feito diretamente-->
+    </ul>
+</body>
+</html>

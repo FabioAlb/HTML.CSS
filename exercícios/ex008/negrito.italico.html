@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        mark {
+            background-color: rgb(192, 141, 240);
+        }
+    </style>
+    <title>Formatação de textos</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (não semântica</p>
+    <p>Nesta frase, tenho um <strong> termo em destaque</strong> usando a tag STRONG</p><!-- usar a tag strong é a forma correta de usar o negrito como destaque, pois visto que a html5 foca na semântica, usar a tag B não faz sentido, visto que ela traz apenas a forma e não o sentido de strong (forte)-->
+    <h2>italico / ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântico</p>
+    <p>nesta frase, temos um <em>termo em ênfase</em> usando a tag Em (semantica)</p><!--a tag EM significa enfases-->
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag mark.</p>
+    <p>E no outro parágrafo, temos: <mark> outro texto marcado</mark></p>
+    <p style="background-color: ;"></p>
+    <h2>texto grande e pequeno</h2>
+    <p>estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p><!--a tag big está obsoleta, embora a small ainda não esteja-->
+    <!--pequeno ou grande mudam as formas do conteúdo e não do sentido dele, ou seja, para criar letras maiores deve-se formatar em CSS-->
+    <!--a tag small, provalvelmente ainda não está obsoleta, pois ela carrega um significado em texto, como rodapés, por exemplo-->
+    <h2>texto deletado</h2>
+    <p>podemos marcar <del>um texto como excluído </del>para indicar que ele deve ser lido, mas não considerado.</p> <!--é um texto que possui uma linha traçada ao meio e que siginifica que ele deve ser lido, mas não considerado-->
+    <h2>Texto inserido</h2>
+    <p>podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e e indicar que ele foi inserido depois</p>
+    <h2>texto sobrescrito</h2>
+        <p>Para inserir coisas do tipo: x<sup>20</sup>=3</p> <!--com o 20 acima do x, ou seja elevado a 20-->
+        <!--sup significa sobre-->
+    <h2>Texto subscrito</h2>
+    <p>para inserir coisas como: H<sub>2</sub>O</p> <!--com o 2 abaixo de H e O-->
+    
+</body>
+</html>

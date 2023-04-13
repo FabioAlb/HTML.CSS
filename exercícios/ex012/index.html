@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <!--essa forma limita o desenvolvimento do código visto que seria necessário usar uma tag <video> para cada video com tipo de arquivo diferente e mesmo assim não seria útil, visto que eu quero é que o vídeo seja carregado com o arquivo comptível com o navegador do usuário, a seguir assim como a tag picture serão acrescentandos sources com os arquivos correspondentes-->
+        <video width="250" height="141" controls autoplay>
+            <source src="mídia/meu-video.mp4" type="Mp4">
+            <source src="mídia/Meu-Video.webm" type="webm">
+            <source src="mídia/Meu-Video.mkv" type="Mkv">
+            <p>Seu navegador não têm compatibilidade com reprodução de vídeos.</p>
+            <!--Para dicionar uma miniatura, basta crescentar poster e adicionar a imagem-->
+            <!--os critérios para ordem de seleção da tentantiva de rodar os vídeos são: tamanho e compatibilidade com os principais navegadores atuais-->
+        </video>
+        <!--o guanabarinha terminou a aula falando sobre a quantidade excessiva de lergura de banda arquivos como esses podem gastar dependendo de qual navegador o usuário está usando e da quantidade de pessoas que estão usando o site também, ou seja, usar hospedagem local para vídeos poder ser uma boa ideia somente quando a quantidade de vídeos é reduzida, porém na próxima aula irei aprender como adicionar vários vídeos sem que haja um custo adicional por conta da hospedagem-->
+        <h1>Inserindo vídeos do YouTube</h1>
+        <iframe width="250" height="141" src="https://www.youtube.com/embed/6stlCkUDG_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h1>Inserindo vídeos com Vimeo</h1>
+        <iframe src="https://player.vimeo.com/video/29844795?h=f0a1764666&portrait=0" width="250" height="141" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

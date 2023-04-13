@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações Citações e códigos</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte / pré-formatado</h2>
+    <p>Partes de código, por exemplo o comando <code>document.getElementById</code>('teste') é escrito em linguagem JavaScript</p> <!--o comando code formato o trecho em questão para uma fonte monoespçada que é uma fonte que formata todas as letras para ocuparem um mesmo tamnho e tornam a leitura mais fácil-->
+    <pre> <!--essa tag faz com o texto selecionado fique com a formatação original posta no vs Code, ou seja, é possível pré-formatar um texto, diminuindo a quantidade de tags br em um código, por exemplo ou até mesmo configurando a tabulação e espaçamentos-->
+        <code>
+            num = int(imput('Digite um número'))
+            if num % 2 == 0:
+                print(f'O número {num} é PAR')
+            else:
+                print (f'O número {num} é IMPAR')
+            print('Fim do Programa') <!--é possível notar que com a tag pre, a formatação fica identica a original, porém os espaços ficaram muito grandes, para diminuir existe um macete: selecionando somente o texto em questão, basta pressionar shift+tab para fazer o trecho retrocer e somente tab para fazer o trecho avançar-->
+        </code>
+    </pre>
+    <h2>Citações simples (quote)</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p> <!--q é a abreviação de citação em inglês (quote) isso facilita o tempo na programação, pois ao saber que será feita uma citação basta usar a tag q, além de deixar o código mais legível por dar sentido a ele, lembrando novamente que a HTML é uma linguagem de hiper texto que se baseia na semântica, no sentido das coias-->
+    <h2>Citações completas</h2>
+    <p>Segundo Ed tittel e Jef Noble, no seu livro HTML para leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Construindo_Web_Sites_Para_Leigos_Tradu/xlLcAwAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&printsec=frontcover">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capírulo descrevem os blocos de texto.
+    </blockquote> <!--blockquote cria uma citação com espaçamento da borda (como as feitas em trabalhos acadêmicos, por exemplo)-->
+    <!--blockquote cite cria uma citação com espaçamento, mas com a diferença de fazer a citação da fonte, assim mantendo os direitos de uso de quem produziu o conteúdo-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando</p> <!--abbr mostra a origem de uma abreviação quando o cursor do mouse para em cima da abreviação como foi exemplificado acima-->
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisa em HTML</bdo></p> <!-- piadinha do guanabara com a tag que ele julga inutil, pois só formata o texto para que fique de tras pra frente ksksksksks-->
+    <p><bdo dir="ltr">Escreve o texto normalmente</bdo></p>
+    <!--Essa tag escreve o texto sem diferença nenhuma kkkkkkkkkk-->
+</body>
+</html>

@@ -4,4 +4,4 @@
 estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
 
-<a href= "FabioAlb.github.io/HTML.CSS/des-mod-2/desafio_10/android.html">Executar o Desafio Android</a>
+<a href= "des-mod-2/desafio-10">Executar o Desafio Android</a>

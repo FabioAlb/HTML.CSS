@@ -1,33 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            height: 100vh;
-            background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        main{
-            background-color: white;
-            width: 400px;
-            padding: 10px;
-            margin: auto;
-            border: 1px solid black;
-            border-radius: 12px;
-        }
-    </style>
-</head>
-<body>
-    <main>
-        <h1>teste de imagem de fundo</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, asperiores sed deserunt quam reiciendis deleniti, qui maiores perferendis rem expedita quia dolorum magni veniam! Amet reprehenderit dolores ullam sunt dicta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis numquam ipsa, id officia quod iste veritatis minus eum, ab quisquam, a earum alias natus totam dolorem vel non quidem doloremque!</p>
-    </main>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fundo fixo de tela</title>
+        <style>
+            body {
+                /*height: 100vh;
+                background-color: black;
+                background-image: url(imagens/wallpaper002.jpg);
+                background-position: center top;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;*/
+                /*shorthand - background
+                1-color
+                2-image
+                3-position
+                4-repeat
+                5-{size} Ele ainda não está funcionando, embora esteja na documentação
+                6-attachment
+                */
+                background: black url(imagens/wallpaper002.jpg) center no-repeat fixed;
+                background-size: cover;
+            }
+
+            main {
+                background-color: white;
+                max-width: 650px;
+                padding: 10px;
+                margin: auto;
+                border: 1px solid black;
+                border-radius: 12px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <h1>teste de imagem de fundo</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, asperiores sed deserunt quam reiciendis
+                deleniti, qui maiores perferendis rem expedita quia dolorum magni veniam! Amet reprehenderit dolores
+                ullam sunt dicta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis numquam ipsa, id
+                officia quod iste veritatis minus eum, ab quisquam, a earum alias natus totam dolorem vel non quidem
+                doloremque!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, asperiores sed deserunt quam reiciendis
+                deleniti, qui maiores perferendis rem expedita quia dolorum magni veniam! Amet reprehenderit dolores
+                ullam sunt dicta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis numquam ipsa, id
+                officia quod iste veritatis minus eum, ab quisquam, a earum alias natus totam dolorem vel non quidem
+                doloremque!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, asperiores sed deserunt quam reiciendis
+                deleniti, qui maiores perferendis rem expedita quia dolorum magni veniam! Amet reprehenderit dolores
+                ullam sunt dicta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis numquam ipsa, id
+                officia quod iste veritatis minus eum, ab quisquam, a earum alias natus totam dolorem vel non quidem
+                doloremque!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, asperiores sed deserunt quam reiciendis
+                deleniti, qui maiores perferendis rem expedita quia dolorum magni veniam! Amet reprehenderit dolores
+                ullam sunt dicta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis numquam ipsa, id
+                officia quod iste veritatis minus eum, ab quisquam, a earum alias natus totam dolorem vel non quidem
+                doloremque!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, asperiores sed deserunt quam reiciendis
+                deleniti, qui maiores perferendis rem expedita quia dolorum magni veniam! Amet reprehenderit dolores
+                ullam sunt dicta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis numquam ipsa, id
+                officia quod iste veritatis minus eum, ab quisquam, a earum alias natus totam dolorem vel non quidem
+                doloremque!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, asperiores sed deserunt quam reiciendis
+                deleniti, qui maiores perferendis rem expedita quia dolorum magni veniam! Amet reprehenderit dolores
+                ullam sunt dicta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis numquam ipsa, id
+                officia quod iste veritatis minus eum, ab quisquam, a earum alias natus totam dolorem vel non quidem
+                doloremque!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, asperiores sed deserunt quam reiciendis
+                deleniti, qui maiores perferendis rem expedita quia dolorum magni veniam! Amet reprehenderit dolores
+                ullam sunt dicta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis numquam ipsa, id
+                officia quod iste veritatis minus eum, ab quisquam, a earum alias natus totam dolorem vel non quidem
+                doloremque!</p>
+        </main>
+    </body>
+
 </html>

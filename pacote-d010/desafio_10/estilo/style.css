@@ -190,6 +190,7 @@ aside > ul {
     list-style-position: inside;
     columns: 2;
     text-align: justify;
+    font-size: 0.9em;
 }
 
 #corretor {

@@ -192,6 +192,11 @@ aside > ul {
     text-align: justify;
 }
 
+#corretor {
+    position: absolute;
+
+}
+
 aside h4 {
     background-color: darkblue;
     color: white;
